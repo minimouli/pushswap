@@ -7,7 +7,8 @@
         "default": [
             "one.suite.js",
             "sorted.suite.js",
-            "small.suite.js"
+            "small.suite.js",
+            "medium.suite.js"
         ]
     }
 }
