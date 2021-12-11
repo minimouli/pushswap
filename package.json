@@ -25,6 +25,8 @@
     "mouli.json"
   ],
   "dependencies": {
+    "@minimouli/framework": "^1.0.0",
+    "@minimouli/types": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^16.11.11",
