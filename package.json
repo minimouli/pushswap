@@ -1,0 +1,33 @@
+{
+  "name": "@minimouli/pushswap",
+  "version": "1.0.0",
+  "keywords": [
+    "minimouli",
+    "project=pushswap",
+    "school=epitech"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepack": "yarn run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minimouli/pushswap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minimouli/pushswap/issues"
+  },
+  "homepage": "https://github.com/minimouli/pushswap",
+  "license": "MIT",
+  "files": [
+    "dist/**/*",
+    "res/**/*",
+    "mouli.json"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "typescript": "^4.5.2"
+  }
+}

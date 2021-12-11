@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "lib": ["es2020"],
+        "declaration": false,
+        "strict": true,
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "typeRoots": [
+            "./node_modules/@minimouli"
+        ]
+    },
+    "include": [
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "./src/**/*.spec.ts"
+    ]
+}

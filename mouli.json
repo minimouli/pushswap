@@ -1,0 +1,9 @@
+{
+    "rootDir": "./dist",
+    "binaries": {
+        "pushswap": "push_swap"
+    },
+    "suites": {
+        "default": []
+    }
+}
