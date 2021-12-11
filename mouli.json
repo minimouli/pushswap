@@ -6,7 +6,8 @@
     "suites": {
         "default": [
             "one.suite.js",
-            "sorted.suite.js"
+            "sorted.suite.js",
+            "small.suite.js"
         ]
     }
 }
