@@ -14,10 +14,22 @@ class Scanner extends stream.Writable {
     private pos: number = 0
     private _interpreter: Interpreter | null = null
 
+    private extra: string = ''
+
     // read from pushswap stdout
     _write(chunk: any, enc: string, next: () => void): void {
 
-        const content: string = chunk.toString()
+        let content: string = this.extra + chunk.toString()
+
+        this.extra = ''
+
+        if (!content.endsWith('\n') && !content.endsWith(' ')) {
+
+            const lastIndexOf: number = content.lastIndexOf(' ')
+
+            this.extra = content.substring(lastIndexOf + 1)
+            content = content.substring(0, lastIndexOf)
+        }
 
         this.pos = 0
 
