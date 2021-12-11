@@ -26,6 +26,7 @@
   ],
   "dependencies": {
     "@minimouli/framework": "^1.0.0",
+    "@minimouli/io": "^1.0.0",
     "@minimouli/types": "^1.0.0"
   },
   "devDependencies": {
