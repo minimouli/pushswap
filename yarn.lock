@@ -1105,6 +1105,62 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
+"@minimouli/framework@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@minimouli/framework/-/framework-1.0.0.tgz#c44bf9de25fc8f8c4683b3ef04e10c9214ea4af9"
+  integrity sha512-LpVAD7F9cwlrzV0N1wb51bPNOfWD5UZDv+Y/pHK2wcnepA73k+VE2Iw7CONQoZxcBFDQng80uflfekN0CgIguQ==
+  dependencies:
+    "@minimouli/fs" "^1.0.0"
+    "@minimouli/ipc" "^1.0.0"
+    "@minimouli/matchers" "^1.0.0"
+    "@minimouli/process" "^1.0.0"
+    "@minimouli/types" "^1.0.0"
+
+"@minimouli/fs@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@minimouli/fs/-/fs-1.0.0.tgz#5b969d377ad973cee36365c66925555bc1e994e8"
+  integrity sha512-YJ/rnm9Bk9JdCRhJMOjh1a6iMK8gE6bsG6g6loaUBAQavafv8fw49/XvoXv8Qy8QjhfnsksDG99ZkxuTSoSmoQ==
+  dependencies:
+    "@minimouli/io" "^1.0.0"
+    "@minimouli/types" "^1.0.0"
+
+"@minimouli/io@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@minimouli/io/-/io-1.0.0.tgz#337ff8bfd013d0dcc868376e24aafbba18089042"
+  integrity sha512-7L91YF0ei3LNwy6QyMHSVzR2NEllnjUoS37xZ3XgD2IR0JW4wF/c0d6r3Gh+g5giPWO4S2uGlroTULJjY94YkA==
+  dependencies:
+    "@minimouli/types" "^1.0.0"
+
+"@minimouli/ipc@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@minimouli/ipc/-/ipc-1.0.0.tgz#ffa568058e42383a5d83198fba397ea7960f68a7"
+  integrity sha512-9zZo4IICOJwgT4/SKgpIm944JjSptFS0KgPrgoFJBL1qRbLS0amrPEqDcAPvXHCygQ2Eyk6uB5xQedLGPrCo4A==
+  dependencies:
+    "@minimouli/process" "^1.0.0"
+
+"@minimouli/matchers@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@minimouli/matchers/-/matchers-1.0.0.tgz#d5f09f5dfc91a124cc34f40ba9c1396def251558"
+  integrity sha512-vD0nLfEcJmlOBEaHCQdnwlOq6RALn1qRN/YJJghWACeAtZ0/4c5FU6SrCcrPurs8sHOQx//VMwPdbDVzcKOd3g==
+  dependencies:
+    "@minimouli/fs" "^1.0.0"
+    "@minimouli/process" "^1.0.0"
+    "@minimouli/types" "^1.0.0"
+
+"@minimouli/process@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@minimouli/process/-/process-1.0.0.tgz#c77f2d08b60134f18367d0133fab6da2a94a8ea2"
+  integrity sha512-Qq4hJ0M9PFNBfuQOkxVDhC+bLfmZ2SvXbly/s4nCdQX1V6R8CkwuZOQRHVWdFvpZXPeXLKt/LM+3ARqQMM81Hw==
+  dependencies:
+    "@minimouli/fs" "^1.0.0"
+    "@minimouli/io" "^1.0.0"
+    "@minimouli/types" "^1.0.0"
+
+"@minimouli/types@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@minimouli/types/-/types-1.0.0.tgz#4f1c840fe7704af404eda00433ee373c37ad16d3"
+  integrity sha512-8yqDM64sZE/q5XFOAMeTR46SXrzfYSKJRT5bI+PnEAjxmJ8mZQwRqMId0afbVqivKkMr25szD0pxVUMnR/SKJA==
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.3.tgz#3802ddd21a50a949b6721ddd72da36e67e7f1b2d"
