@@ -21,7 +21,7 @@ suite('Small', () => {
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
-            exec.setTimeout(3000)
+            exec.setTimeout(5000)
 
             await exec.execute()
 
@@ -42,7 +42,7 @@ suite('Small', () => {
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
-            exec.setTimeout(3000)
+            exec.setTimeout(5000)
 
             await exec.execute()
 
@@ -63,7 +63,7 @@ suite('Small', () => {
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
-            exec.setTimeout(3000)
+            exec.setTimeout(5000)
 
             await exec.execute()
 
@@ -84,11 +84,11 @@ suite('Small', () => {
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
+            exec.setTimeout(5000)
 
             await exec.execute()
 
             expect(exec).toExitWith(0)
-            exec.setTimeout(5000)
 
             interpreter.checkHasNoInvalidOperation()
             interpreter.checkHasNoExtraSpaces()
@@ -109,7 +109,7 @@ suite('Small', () => {
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
-            exec.setTimeout(3000)
+            exec.setTimeout(5000)
 
             await exec.execute()
 
@@ -130,7 +130,7 @@ suite('Small', () => {
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
-            exec.setTimeout(3000)
+            exec.setTimeout(5000)
 
             await exec.execute()
 
@@ -151,7 +151,7 @@ suite('Small', () => {
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
-            exec.setTimeout(3000)
+            exec.setTimeout(5000)
 
             await exec.execute()
 
@@ -172,11 +172,11 @@ suite('Small', () => {
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
+            exec.setTimeout(5000)
 
             await exec.execute()
 
             expect(exec).toExitWith(0)
-            exec.setTimeout(5000)
 
             interpreter.checkHasNoInvalidOperation()
             interpreter.checkHasNoExtraSpaces()
@@ -197,7 +197,7 @@ suite('Small', () => {
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
-            exec.setTimeout(3000)
+            exec.setTimeout(5000)
 
             await exec.execute()
 
@@ -260,11 +260,11 @@ suite('Small', () => {
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
+            exec.setTimeout(5000)
 
             await exec.execute()
 
             expect(exec).toExitWith(0)
-            exec.setTimeout(5000)
 
             interpreter.checkHasNoInvalidOperation()
             interpreter.checkHasNoExtraSpaces()

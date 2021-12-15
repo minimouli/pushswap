@@ -19,7 +19,7 @@ suite('Sorted', () => {
         const interpreter = new Interpreter(input)
 
         exec.pipeStdout(interpreter)
-        exec.setTimeout(2000)
+        exec.setTimeout(5000)
 
         await exec.execute()
 
@@ -40,7 +40,7 @@ suite('Sorted', () => {
         const interpreter = new Interpreter(input)
 
         exec.pipeStdout(interpreter)
-        exec.setTimeout(2000)
+        exec.setTimeout(5000)
 
         await exec.execute()
 
@@ -61,7 +61,7 @@ suite('Sorted', () => {
         const interpreter = new Interpreter(input)
 
         exec.pipeStdout(interpreter)
-        exec.setTimeout(2000)
+        exec.setTimeout(5000)
 
         await exec.execute()
 
