@@ -8,6 +8,7 @@
 enum TokenType {
     NONE, // default
     SPACE, // empty space
+    NEWLINE, // new line
     SA, // swap the first two elements of list_a
     SB, // swap the first two elements of list_b
     SC, // sa and sb at the same time

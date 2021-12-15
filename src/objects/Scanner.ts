@@ -36,13 +36,8 @@ class Scanner extends stream.Writable {
         const tokens: Token[] = []
         let token: Token | null = null
 
-        while ((token = this.getNextToken(content)) != null) {
-
-            if (token.type === TokenType.SPACE)
-                continue
-
+        while ((token = this.getNextToken(content)) != null)
             tokens.push(token)
-        }
 
         this._interpreter?.interpret(tokens)
 
@@ -52,10 +47,13 @@ class Scanner extends stream.Writable {
     private getNextToken(chunk: string): Token | null {
 
         if (chunk.charAt(this.pos) === ' ') {
-            while (chunk.charAt(this.pos) === ' ')
-                this.pos++
-
+            this.pos++
             return new Token(' ', TokenType.SPACE)
+        }
+
+        if (chunk.charAt(this.pos) === '\n') {
+            this.pos++
+            return new Token('\n', TokenType.NEWLINE)
         }
 
         const start = this.pos
