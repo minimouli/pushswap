@@ -28,6 +28,8 @@ suite('Medium', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -47,6 +49,8 @@ suite('Medium', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -66,6 +70,8 @@ suite('Medium', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -89,6 +95,8 @@ suite('Medium', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -108,6 +116,8 @@ suite('Medium', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -127,6 +137,8 @@ suite('Medium', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -150,6 +162,8 @@ suite('Medium', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -169,6 +183,8 @@ suite('Medium', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -188,6 +204,8 @@ suite('Medium', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })

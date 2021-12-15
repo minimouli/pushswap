@@ -28,6 +28,8 @@ suite('Big', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -47,6 +49,8 @@ suite('Big', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -70,6 +74,8 @@ suite('Big', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -89,6 +95,8 @@ suite('Big', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -112,6 +120,8 @@ suite('Big', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -131,6 +141,8 @@ suite('Big', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })

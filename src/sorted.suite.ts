@@ -26,6 +26,8 @@ suite('Sorted', () => {
         expect(exec).toExitWith(0)
 
         interpreter.checkHasNoInvalidOperation()
+        interpreter.checkHasOperations()
+        interpreter.checkHasNoExtraSpaces()
         interpreter.checkFirstToBeSorted()
         interpreter.checkSecondToBeEmpty()
     })
@@ -45,6 +47,8 @@ suite('Sorted', () => {
         expect(exec).toExitWith(0)
 
         interpreter.checkHasNoInvalidOperation()
+        interpreter.checkHasOperations()
+        interpreter.checkHasNoExtraSpaces()
         interpreter.checkFirstToBeSorted()
         interpreter.checkSecondToBeEmpty()
     })
@@ -64,6 +68,8 @@ suite('Sorted', () => {
         expect(exec).toExitWith(0)
 
         interpreter.checkHasNoInvalidOperation()
+        interpreter.checkHasOperations()
+        interpreter.checkHasNoExtraSpaces()
         interpreter.checkFirstToBeSorted()
         interpreter.checkSecondToBeEmpty()
     })

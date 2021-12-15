@@ -26,6 +26,7 @@ suite('One', () => {
         expect(exec).toExitWith(0)
 
         interpreter.checkHasNoInvalidOperation()
+        interpreter.checkHasNoExtraSpaces()
         interpreter.checkFirstToBeSorted()
         interpreter.checkSecondToBeEmpty()
     })
@@ -45,6 +46,7 @@ suite('One', () => {
         expect(exec).toExitWith(0)
 
         interpreter.checkHasNoInvalidOperation()
+        interpreter.checkHasNoExtraSpaces()
         interpreter.checkFirstToBeSorted()
         interpreter.checkSecondToBeEmpty()
     })
@@ -64,6 +66,7 @@ suite('One', () => {
         expect(exec).toExitWith(0)
 
         interpreter.checkHasNoInvalidOperation()
+        interpreter.checkHasNoExtraSpaces()
         interpreter.checkFirstToBeSorted()
         interpreter.checkSecondToBeEmpty()
     })

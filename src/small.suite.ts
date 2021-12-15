@@ -28,6 +28,8 @@ suite('Small', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -47,6 +49,8 @@ suite('Small', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -66,6 +70,8 @@ suite('Small', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -85,6 +91,8 @@ suite('Small', () => {
             exec.setTimeout(5000)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -108,6 +116,8 @@ suite('Small', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -127,6 +137,8 @@ suite('Small', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -146,6 +158,8 @@ suite('Small', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -165,6 +179,8 @@ suite('Small', () => {
             exec.setTimeout(5000)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -188,6 +204,8 @@ suite('Small', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -207,6 +225,8 @@ suite('Small', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -226,6 +246,8 @@ suite('Small', () => {
             expect(exec).toExitWith(0)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
@@ -245,6 +267,8 @@ suite('Small', () => {
             exec.setTimeout(5000)
 
             interpreter.checkHasNoInvalidOperation()
+            interpreter.checkHasNoExtraSpaces()
+            interpreter.checkHasANewLine()
             interpreter.checkFirstToBeSorted()
             interpreter.checkSecondToBeEmpty()
         })
