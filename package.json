@@ -1,6 +1,6 @@
 {
   "name": "@minimouli/pushswap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "minimouli",
     "project=pushswap",
@@ -27,7 +27,7 @@
     "mouli.json"
   ],
   "dependencies": {
-    "@minimouli/framework": "^1.0.0",
+    "@minimouli/framework": "^1.0.1",
     "@minimouli/io": "^1.0.0",
     "@minimouli/types": "^1.0.0"
   },
