@@ -17,7 +17,7 @@ suite('Small', () => {
 
             const input: string[] = await Reader.from('/res/positive/10')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -38,7 +38,7 @@ suite('Small', () => {
 
             const input: string[] = await Reader.from('/res/positive/50')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -59,7 +59,7 @@ suite('Small', () => {
 
             const input: string[] = await Reader.from('/res/positive/100')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -80,7 +80,7 @@ suite('Small', () => {
 
             const input: string[] = await Reader.from('/res/positive/500')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -105,7 +105,7 @@ suite('Small', () => {
 
             const input: string[] = await Reader.from('/res/negative/10')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -126,7 +126,7 @@ suite('Small', () => {
 
             const input: string[] = await Reader.from('/res/negative/50')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -147,7 +147,7 @@ suite('Small', () => {
 
             const input: string[] = await Reader.from('/res/negative/100')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -168,7 +168,7 @@ suite('Small', () => {
 
             const input: string[] = await Reader.from('/res/negative/500')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -193,7 +193,7 @@ suite('Small', () => {
 
             const input: string[] = await Reader.from('/res/mixed/10')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -214,7 +214,7 @@ suite('Small', () => {
 
             const input: string[] = await Reader.from('/res/mixed/50')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -235,7 +235,7 @@ suite('Small', () => {
 
             const input: string[] = await Reader.from('/res/mixed/100')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -256,7 +256,7 @@ suite('Small', () => {
 
             const input: string[] = await Reader.from('/res/mixed/500')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)

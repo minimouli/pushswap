@@ -15,7 +15,7 @@ suite('Sorted', () => {
 
         const input: string[] = await Reader.from('/res/positive/50_sorted')
 
-        const exec = new Executable('pushswap', input)
+        const exec = new Executable('push_swap', input)
         const interpreter = new Interpreter(input)
 
         exec.pipeStdout(interpreter)
@@ -36,7 +36,7 @@ suite('Sorted', () => {
 
         const input: string[] = await Reader.from('/res/negative/50_sorted')
 
-        const exec = new Executable('pushswap', input)
+        const exec = new Executable('push_swap', input)
         const interpreter = new Interpreter(input)
 
         exec.pipeStdout(interpreter)
@@ -57,7 +57,7 @@ suite('Sorted', () => {
 
         const input: string[] = await Reader.from('/res/mixed/50_sorted')
 
-        const exec = new Executable('pushswap', input)
+        const exec = new Executable('push_swap', input)
         const interpreter = new Interpreter(input)
 
         exec.pipeStdout(interpreter)

@@ -17,7 +17,7 @@ suite('Big', () => {
 
             const input: string[] = await Reader.from('/res/positive/10000')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -38,7 +38,7 @@ suite('Big', () => {
 
             const input: string[] = await Reader.from('/res/positive/50000')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -63,7 +63,7 @@ suite('Big', () => {
 
             const input: string[] = await Reader.from('/res/negative/10000')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -84,7 +84,7 @@ suite('Big', () => {
 
             const input: string[] = await Reader.from('/res/negative/50000')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -109,7 +109,7 @@ suite('Big', () => {
 
             const input: string[] = await Reader.from('/res/mixed/10000')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
@@ -130,7 +130,7 @@ suite('Big', () => {
 
             const input: string[] = await Reader.from('/res/mixed/50000')
 
-            const exec = new Executable('pushswap', input)
+            const exec = new Executable('push_swap', input)
             const interpreter = new Interpreter(input)
 
             exec.pipeStdout(interpreter)
