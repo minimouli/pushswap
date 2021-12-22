@@ -138,6 +138,31 @@ class Interpreter extends WritableStream {
         throw new ExpectError(hint)
     }
 
+    checkHasNoOperation(): void {
+
+        if (this.tokens.length === 0)
+            return
+
+        if (this.tokens.length === 1 && this.tokens[0].type === TokenType.NEWLINE)
+            return
+
+        const hint: Hints.EqualHint = {
+            type: Hints.HintType.EQUAL,
+            status: Hints.HintStatus.FAILURE,
+            message: 'The output must not contain a single operation, because the list is already sorted.',
+            received: {
+                value: this.tokens[0].content,
+                type: Hints.ObjectType.STRING
+            },
+            expected: {
+                value: '\\n',
+                type: Hints.ObjectType.STRING
+            }
+        }
+
+        throw new ExpectError(hint)
+    }
+
     checkHasOperations(): void {
 
         if (this.tokens.length !== 0)
