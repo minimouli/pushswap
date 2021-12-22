@@ -25,11 +25,8 @@ suite('Sorted', () => {
 
         expect(exec).toExitWith(0)
 
-        interpreter.checkHasNoInvalidOperation()
-        interpreter.checkHasOperations()
-        interpreter.checkHasNoExtraSpaces()
-        interpreter.checkFirstToBeSorted()
-        interpreter.checkSecondToBeEmpty()
+        interpreter.checkHasANewLine()
+        interpreter.checkHasNoOperation()
     })
 
     test('Negative', async () => {
@@ -46,11 +43,8 @@ suite('Sorted', () => {
 
         expect(exec).toExitWith(0)
 
-        interpreter.checkHasNoInvalidOperation()
-        interpreter.checkHasOperations()
-        interpreter.checkHasNoExtraSpaces()
-        interpreter.checkFirstToBeSorted()
-        interpreter.checkSecondToBeEmpty()
+        interpreter.checkHasANewLine()
+        interpreter.checkHasNoOperation()
     })
 
     test('Mixed', async () => {
@@ -67,11 +61,8 @@ suite('Sorted', () => {
 
         expect(exec).toExitWith(0)
 
-        interpreter.checkHasNoInvalidOperation()
-        interpreter.checkHasOperations()
-        interpreter.checkHasNoExtraSpaces()
-        interpreter.checkFirstToBeSorted()
-        interpreter.checkSecondToBeEmpty()
+        interpreter.checkHasANewLine()
+        interpreter.checkHasNoOperation()
     })
 
 })

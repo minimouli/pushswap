@@ -25,10 +25,8 @@ suite('One', () => {
 
         expect(exec).toExitWith(0)
 
-        interpreter.checkHasNoInvalidOperation()
-        interpreter.checkHasNoExtraSpaces()
-        interpreter.checkFirstToBeSorted()
-        interpreter.checkSecondToBeEmpty()
+        interpreter.checkHasANewLine()
+        interpreter.checkHasNoOperation()
     })
 
     test('Negative', async () => {
@@ -45,10 +43,8 @@ suite('One', () => {
 
         expect(exec).toExitWith(0)
 
-        interpreter.checkHasNoInvalidOperation()
-        interpreter.checkHasNoExtraSpaces()
-        interpreter.checkFirstToBeSorted()
-        interpreter.checkSecondToBeEmpty()
+        interpreter.checkHasANewLine()
+        interpreter.checkHasNoOperation()
     })
 
     test('Zero', async () => {
@@ -65,10 +61,8 @@ suite('One', () => {
 
         expect(exec).toExitWith(0)
 
-        interpreter.checkHasNoInvalidOperation()
-        interpreter.checkHasNoExtraSpaces()
-        interpreter.checkFirstToBeSorted()
-        interpreter.checkSecondToBeEmpty()
+        interpreter.checkHasANewLine()
+        interpreter.checkHasNoOperation()
     })
 
 })
