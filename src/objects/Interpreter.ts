@@ -148,7 +148,7 @@ class Interpreter extends WritableStream {
             status: Hints.HintStatus.FAILURE,
             message: 'The output must contain at least one operation or a new line at the end.',
             received: {
-                value: '""',
+                value: '',
                 type: Hints.ObjectType.STRING
             },
             expected: {
@@ -170,7 +170,7 @@ class Interpreter extends WritableStream {
             status: Hints.HintStatus.FAILURE,
             message: 'The output must not contain extra spaces.',
             received: {
-                value: '" "',
+                value: ' ',
                 type: Hints.ObjectType.STRING
             },
             expected: {
@@ -201,7 +201,7 @@ class Interpreter extends WritableStream {
             status: Hints.HintStatus.FAILURE,
             message: 'The output must have a new line at the end.',
             received: {
-                value: '""',
+                value: '',
                 type: Hints.ObjectType.STRING
             },
             expected: {
